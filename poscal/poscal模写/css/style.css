@@ -1,0 +1,431 @@
+@charset "utf-8";
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size:62.5%;
+}
+
+body{
+  margin:0;
+  font-size: 1.6rem;
+  font-family:"Helvetica Neue",Helvetica,Arial,"游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+}
+
+img{
+  display: block;
+
+}
+
+li{
+  list-style-type:none;
+}
+
+h1,h2,p{
+  margin: 0;
+  padding: 0;
+}
+
+/* here start---------------------- */
+
+.header{
+  width:100%;
+  height:75rem;
+  background-image: url(../img/bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  position: relative;
+
+}
+
+.header h2{
+  color:#fff;
+  font-size:2.6rem;
+  font-weight: normal;
+  letter-spacing: 0.4rem;
+  margin-left:10rem;
+}
+.header li{
+  color:#fff;
+  font-size:1.4rem;
+  margin-left: 3.6rem;
+  height: 100%;
+
+
+}
+.header li a{
+  color:#fff;
+
+
+
+}
+.header li a:hover{
+  color:#fff;
+  border-bottom: 0.2rem solid #fff;
+  padding-bottom: 1rem;
+
+
+
+}
+.header li:last-child{
+  margin-right: 10rem
+
+
+}
+
+.header small{
+  color: #fff;
+  font-size: 1rem;
+  margin-left:17rem;
+}
+
+.header-content{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-top:2rem;
+}
+
+.header-nav ul{
+  display: flex;
+  margin: 0;
+  align-items: center;
+  height: 100%;
+  padding-top: 5.6rem;
+
+}
+.header-nav{
+  height:11.1rem;
+
+}
+
+
+.header i{
+  color:#fff;
+}
+
+.header-logo .fas{
+  font-size:4rem;
+  margin-right: 2.7rem
+}
+
+.fa-angle-down{
+  position: absolute;
+  bottom:5.5rem;
+  left:50%;
+  font-size: 3rem;
+}
+
+
+/* <!-- ------------------start main1------------ --> */
+
+.main-text{
+  text-align: center;
+  width: 100%;
+  height: 91rem;
+  background-color: #F6F6F6;
+}
+
+.adjust{
+  width:96rem;
+  margin: 0 auto;
+}
+
+.main-text h1{
+  font-size:4.4rem;
+  font-weight: normal;
+  padding-top: 12.7rem;
+  padding-bottom: 7.5rem;
+}
+.main-item{
+  width:36rem;
+  margin: 0 auto;
+}
+.main-item p{
+  font-size:2rem;
+    text-align: left;
+    line-height: 3.4rem;
+
+
+}
+.main-item h2{
+  font-size:3rem;
+  font-weight: normal;
+  letter-spacing: 0.5rem;
+
+
+}
+#logo1{
+  font-weight: bold;
+}
+
+
+/* <!-- ------------------start main2------------ --> */
+.main-product{
+
+  width: 100%;
+  height: 126rem;
+  background-color: #fff;
+}
+
+.logo-link{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 11rem;
+  margin-bottom: 8.4rem;
+  position: relative;
+}
+.logo-link h2{
+  font-size: 3rem;
+  font-family: "Gill Sans Std Book",sans-serif;
+  font-weight: normal;
+  position: absolute;
+  top:10rem;
+  left:43.3rem;
+
+}
+.logo-link a{
+  color:#14181A;
+  width: 16.2rem;
+  height: 4.6rem;
+  border: 1px solid #14181A;
+  padding-left: 5.8rem;
+  line-height: 4.6rem;
+  position: absolute;
+  top:10rem;
+  right:43.3rem;
+}
+.logo-link a:hover{
+  color:#fff;
+background-color: #000;
+transition-duration: 0.2s
+}
+.logo-link i{
+  margin-left: 4rem;
+  color:#14181A;
+}
+
+
+.items img{
+  width: 24.1rem;
+  height:31.9rem;
+}
+
+.product-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.product-flex p{
+  font-size: 2rem;
+  color:#000;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  padding-left: 2rem;
+  margin-bottom: 8rem;
+}
+
+.items:hover{
+
+    opacity: 0.8;
+    transition-duration: 0.2s;
+  }
+
+
+/* <!-- ------------------start main3------------ --> */
+.main-news{
+
+  width: 100%;
+  height: 219rem;
+  background-color:#F6F6F6 ;
+  position: relative;
+
+}
+
+.news-items img{
+  width: 32.2rem;
+  height: 17.2rem;
+}
+
+.news-items{
+  display: flex;
+  padding-left: 7.2rem;
+  margin-bottom: 5.78rem;
+  /* justify-content: space-around; */
+}
+
+.news-text{
+  width: 46.3rem;
+  margin-left: 3rem;
+}
+
+.text-1{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 0.2rem;
+  padding-bottom: 2rem;
+}
+.text-2{
+  font-size: 1.2rem;
+  padding-bottom: 2.4rem;
+  color: #6A7072;
+}
+.text-3{
+  font-size: 1.3rem;
+
+  color: #6A7072;
+}
+
+.fa-angle-down{
+  position: absolute;
+  bottom:0;
+  left:50%;
+  color: gray;
+}
+
+.news-link:hover{
+  opacity: 0.8;
+  transition-duration: 0.2s;
+}
+
+.news-text:hover{
+  opacity: 0.8;
+  transition-duration: 0.2s;
+}
+
+
+  /* <!-- ------------------start contact------------ --> */
+.contact-items{
+  width: 100%;
+  height:12rem;
+  background-color: #fff;
+}
+
+  .contact-item{
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+  }
+  .contact-item a:not(:first-child){
+    margin-left: 3rem;
+  }
+
+
+  .contact-item a{
+      font-size:1.4rem;
+      /* color:#14181A; */
+      width: 16.2rem;
+      height: 4.6rem;
+
+      /* padding-left: 5.8rem; */
+      line-height: 4.6rem;
+      text-align: center;
+  }
+
+  .a-btn{
+    color:#5071A5;
+    border: 1px solid #5071A5;
+  }
+  .b-btn{
+    color:#81BBD0;
+    border: 1px solid #81BBD0;
+  }
+  .c-btn{
+    color:#549DCA;
+    border: 1px solid #549DCA;
+  }
+  .a-btn:hover{
+    color:#fff;
+    border: 1px solid #5071A5;
+    background-color: #5071A5;
+    transition-duration: 0.2s;
+
+
+  }
+  .b-btn:hover{
+    color:#fff;
+    border: 1px solid #81BBD0;
+    background-color: #81BBD0;
+    transition-duration: 0.2s;
+  }
+  .c-btn:hover{
+    color:#fff;
+    border: 1px solid #549DCA;
+    background-color:#549DCA;
+    transition-duration: 0.2s;
+  }
+
+
+/* <!-- -- ------------------start end-link----------- -->     --> */
+
+.end-link{
+  width: 100%;
+  height: 8.7rem;
+  background-color: #949899;
+
+}
+
+.end-nav ul{
+  height: 8.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.end-nav a{
+  color:#fff;
+  font-size: 1.4rem;
+  margin-left: 4rem;
+}
+.end-nav a:hover{
+  color:#E6E6E6;
+  transition-duration: 0.2s;
+
+}
+
+/* !-- ------------------start footer----------- --> */
+
+.footer{
+  width: 100%;
+  height: 16rem;
+  background-color: #666C6E;
+}
+
+.footer-flex{
+  height: 16rem;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+
+
+}
+#daisuke p,i{
+  color: #fff;
+}
+#daisuke i{
+  font-size: 4rem;
+  padding-left: 1.5rem;
+}
+#daisuke p{
+  font-size: 2rem;
+}
+.footer p{
+  font-size:1rem;
+  color:#fff;
+}
